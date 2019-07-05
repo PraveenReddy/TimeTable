@@ -2,9 +2,6 @@ package com.example.timetable.mtimes;
 
 import java.util.Arrays;
 
-/**
- * Created by ndindialap4 on 12/9/15.
- */
 public class TimeTable {
     int tableId;
     Samister samister;

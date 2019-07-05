@@ -11,9 +11,7 @@ import android.widget.Toast;
 import com.example.timetable.mtimes.Constants;
 import com.example.timetable.mtimes.DatabaseConnection;
 
-/**
- * Created by ndindialap4 on 13/9/15.
- */
+
 public class Register extends Activity {
 
     private DatabaseConnection connection;

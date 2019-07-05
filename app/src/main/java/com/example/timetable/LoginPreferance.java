@@ -3,9 +3,7 @@ package com.example.timetable;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by ndindialap4 on 13/9/15.
- */
+
 public class LoginPreferance {
 
 

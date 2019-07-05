@@ -5,9 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-/**
- * Created by ndindialap4 on 13/9/15.
- */
+
 public class InitialScreen extends Activity implements View.OnClickListener {
 
     @Override

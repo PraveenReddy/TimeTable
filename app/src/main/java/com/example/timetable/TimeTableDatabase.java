@@ -12,9 +12,6 @@ import com.example.timetable.mtimes.Subject;
 
 import java.util.ArrayList;
 
-/**
- * Created by dharma on 9/10/2015.
- */
 public class TimeTableDatabase extends SQLiteOpenHelper {
 
     private static final int VERSION = 1;

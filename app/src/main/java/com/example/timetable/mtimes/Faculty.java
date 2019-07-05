@@ -2,9 +2,6 @@ package com.example.timetable.mtimes;
 
 import java.util.List;
 
-/**
- * Created by ndindialap4 on 12/9/15.
- */
 public class Faculty {
     int facutlyId;
     String facultyName;

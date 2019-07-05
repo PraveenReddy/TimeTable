@@ -2,9 +2,6 @@ package com.example.timetable.mtimes;
 
 import java.io.Serializable;
 
-/**
- * Created by ndindialap4 on 12/9/15.
- */
 public class Samister  implements Serializable{
     int semisterId, facultyId, subjectId;
     String semisterName;

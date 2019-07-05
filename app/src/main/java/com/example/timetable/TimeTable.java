@@ -3,9 +3,7 @@ package com.example.timetable;
 import com.example.timetable.mtimes.Faculty;
 import com.example.timetable.mtimes.Subject;
 
-/**
- * Created by dharma on 9/12/2015.
- */
+
 public class TimeTable {
 
     private int id;

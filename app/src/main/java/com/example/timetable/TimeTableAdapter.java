@@ -13,9 +13,7 @@ import com.example.timetable.mtimes.Periods;
 
 import java.util.List;
 
-/**
- * Created by dharma on 9/12/2015.ou
- */
+
 public class TimeTableAdapter extends BaseAdapter {
 
     private LayoutInflater mLayoutInflater;

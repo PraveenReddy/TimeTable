@@ -11,9 +11,7 @@ import com.example.timetable.mtimes.Subject;
 
 import java.util.ArrayList;
 
-/**
- * Created by dharma on 9/12/2015.
- */
+
 public class SubjectAdapter extends BaseAdapter {
     private LayoutInflater mLayoutInflater;
     private Context context;

@@ -1,8 +1,6 @@
 package com.example.timetable.mtimes;
 
-/**
- * Created by ndindialap4 on 12/9/15.
- */
+
 public class Periods {
     int periodNo;
     int day;
