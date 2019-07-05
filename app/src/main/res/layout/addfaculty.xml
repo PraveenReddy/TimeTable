@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#b3ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="@string/semister"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_semister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="Branch"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_branch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="Sections"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_sections"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="Subject"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_subject"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="70"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_faculty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="Faculty"
+            android:textSize="15sp"
+            android:background="@drawable/etshape" />
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_faculty"
+        android:layout_width="170dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Add Faculty"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape" />
+
+
+</LinearLayout>

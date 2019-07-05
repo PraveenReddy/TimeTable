@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ll_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#b3ffff">
+
+    <TextView
+        android:id="@+id/textView_sub1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_sub7"
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="New Text"
+        android:textSize="16sp" />
+</LinearLayout>

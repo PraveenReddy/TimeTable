@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3ffff">
+
+    <TableLayout
+        android:id="@+id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/rg_usertype"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:layout_height="wrap_content"
+                android:layout_width="0dp">
+
+                <RadioButton
+                    android:id="@+id/rb_admin"
+                    android:text="Admin"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:text="Student"
+
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"
+                    android:checked="false"
+                    android:id="@+id/rb_student"></RadioButton>
+
+            </RadioGroup>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Name"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp">
+
+            </TextView>
+
+            <EditText
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:id="@+id/et_name"
+                android:background="@drawable/etshape">
+
+            </EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:text="Password"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp">
+
+            </TextView>
+
+            <EditText
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="textWebPassword"
+                android:id="@+id/et_password"
+                android:background="@drawable/etshape">
+
+            </EditText>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:id="@+id/rg_gender"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp">
+
+                <RadioButton
+                    android:id="@+id/rb_male"
+                    android:text="Male"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rb_female"
+                    android:text="Female"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="0dp"></RadioButton>
+
+            </RadioGroup>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:text="REGISTER"
+        android:id="@+id/bt_register"
+        android:layout_below="@+id/tl_main"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnshape" />
+
+</RelativeLayout>

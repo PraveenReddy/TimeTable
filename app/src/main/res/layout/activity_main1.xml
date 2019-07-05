@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#b3ffff">
+
+
+    <Button
+        android:id="@+id/button_subject"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add Subject"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_faculty"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add Faculty"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Assign"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+
+    <Button
+        android:id="@+id/button_generateTable"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Generate Table"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_viewTimeTable"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="View Table"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_lecture_classes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Lecture Classes"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_lecture_materials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Materials"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_backAdmin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+
+</LinearLayout>
+
+

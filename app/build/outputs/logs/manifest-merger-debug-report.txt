@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:2:1-69:12
+	package
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.2\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:13:22-77
+application
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:15:5-67:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.2\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:17:9-45
+	android:theme
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.example.timetable.InitialScreen
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:20:9-28:20
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:21:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.example.timetable.Register
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:29:9-31:60
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:31:13-57
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:30:13-37
+activity#com.example.timetable.LoginActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:32:9-34:60
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:34:13-57
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:33:13-42
+activity#com.example.timetable.AddSubject
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:35:9-37:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:37:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:36:13-39
+activity#com.example.timetable.AddSubActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:38:9-40:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:40:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:39:13-43
+activity#com.example.timetable.AddFacultyActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:41:9-43:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:43:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:42:13-47
+activity#com.example.timetable.AddFaculty
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:44:9-46:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:46:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:45:13-39
+activity#com.example.timetable.GenerateActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:47:9-49:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:49:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:48:13-45
+activity#com.example.timetable.AssignActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:50:9-52:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:52:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:51:13-43
+activity#com.example.timetable.StudentMainActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:53:9-55:66
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:55:13-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:54:13-48
+activity#com.example.timetable.SessionDetails
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:56:9-59:53
+	android:screenOrientation
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:59:13-50
+	android:label
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:58:13-66
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:57:13-43
+activity#com.example.timetable.MainActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:60:9-50
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:60:19-47
+activity#com.example.timetable.AddVideoLecturesActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:61:9-62
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:61:19-59
+activity#com.example.timetable.SubjectVideosUploadActvity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:62:9-64
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:62:19-61
+activity#com.example.timetable.LectureOrMaterialUploadActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:63:9-69
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:63:19-66
+activity#com.example.timetable.ViewLectureVideosActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:64:9-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:64:19-60
+activity#com.example.timetable.ViewSubjectVideosActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:65:9-63
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:65:19-60
+activity#com.example.timetable.LectureOrMaterialVideosActivity
+ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:66:9-78
+	android:name
+		ADDED from C:\Users\Praveen_Sama\Downloads\TimeTable\TimeTable\app\src\main\AndroidManifest.xml:66:19-66

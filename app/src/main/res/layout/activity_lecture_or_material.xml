@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#b3ffff">
+
+    <Button
+        android:id="@+id/button_lectures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectures upload"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_materials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Materials upload"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_backAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+</LinearLayout>
+
+

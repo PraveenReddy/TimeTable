@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#b3ffff">
+
+
+    <Button
+        android:id="@+id/button_maths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths lecture Videos"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_physics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics Letcure Videos"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_chemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry Lecture Videos"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+
+    <Button
+        android:id="@+id/button_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English lecture Videos"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_hindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi lecture Videos"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+    <Button
+        android:id="@+id/button_backAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnshape" />
+
+
+</LinearLayout>
+
+
